@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="reg">
+      <form action="#">
+        <div>
+          <h2>Registration Form</h2>
+          <div class="name">
+            <label for="n">Name: </label
+            ><input
+              type="text"
+              name="n"
+              id="n"
+              required
+              placeholder="Your name"
+            />
+          </div>
+          <br />
+          <div class="email">
+            <label for="e">Email: </label
+            ><input
+              type="text"
+              name="e"
+              id="e"
+              required
+              placeholder="Your email"
+            />
+          </div>
+          <br />
+          <div class="p">
+            <label for="p">Phone number: </label
+            ><input type="text" name="p" id="p" />
+          </div>
+          <br />
+          <div class="pass">
+            <label for="pass">Password: </label
+            ><input type="text" name="pass" id="pass" required />
+          </div>
+          <br />
+          <label for="gen">Gender: </label><label for="gen">Male</label
+          ><input type="radio" name="gen" id="gen" value="Male:" />
+          <label for="gen">Female:</label
+          ><input type="radio" name="gen" id="gen" value="Female:" /><label
+            for="gen"
+            >Other:</label
+          >
+          <input type="radio" name="gen" id="gen" value="Other" />
+        </div>
+        <br />
+        <div class="lan">
+          <label for="lan">Language: </label
+          ><select name="lan" id="lan">
+            <option value="select">Select language</option>
+            <option value="Yoruba">Yoruba</option>
+            <option value="Igbo">Igbo</option>
+            <option value="Hausa">Hausa</option>
+            <option value="French">French</option>
+            <option value="English">English</option></select
+          ><br /><br />
+          <div class="zip">
+            <label for="zip">Zip Code: </label
+            ><input type="text" name="zip" id="zip" />
+          </div>
+          <br />
+          <label for="ab">About:</label
+          ><textarea
+            name="ab"
+            id="ab"
+            cols="20"
+            rows="4"
+            required
+            placeholder="write about yourself...."
+          ></textarea
+          ><br /><br />
+          <div class="sub"><button>Register</button></div>
+          <br />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

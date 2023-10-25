@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(155, 55, 55);
+  padding: 5rem 10rem 0rem 5rem;
+}
+.reg {
+  margin: 0rem 20rem 0rem 10rem;
+  padding: 0rem 15rem 0rem 5rem;
+  border: 2px solid rgb(189, 82, 82);
+  background-color: rgb(231, 73, 73);
+}
+button {
+  width: 15rem;
+  color: black;
+  border: none;
+}
+input {
+  border: none;
+}
+#n {
+  width: 13.5rem;
+}
+#e {
+  width: 13.5rem;
+}
+#p {
+  width: 10rem;
+}
+#pass {
+  width: 12rem;
+}
+#zip {
+  width: 11.5rem;
+}
